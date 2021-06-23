@@ -1,0 +1,90 @@
+.header {
+	background-color: blue;
+	height: 40px;
+}
+
+.content {
+	background-color: #ddd;
+	min-height: 500px;
+}
+
+.footer{
+	background-color: red;
+	height: 40px;
+}
+
+.sidebar {
+	background-color: #777;
+	max-height: 600px;
+	overflow-y: scroll; /*scroll bar created for sidebar object*/
+}
+
+.list-group-item{
+	background-color: transparent;
+}
+
+.main-content{
+	background-color: #e9e9e9;
+}
+
+.table{
+	background-color: white;
+}
+/* Setting up global styles across the website
+body {
+	font-size: 10px;
+	color: #fff;
+	background-color: : #6122ff; /*doesn't work
+	font-family: 'Arial', sans-serif;
+}
+/* Header Style
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+/*Navigator Bar
+#logo-img {
+	background: url('../chips.jpg') no-repeat;
+	width: 150px;
+	height: 150px;
+	margin: 10px, 15px, 10px, 0;
+	float: left;
+}
+
+.navbar-brand{
+	padding-top: 25px;
+}
+
+.navbar-brand h1{ /* Restaurant name 
+	font-family: serif;
+	color: #557c3e;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none; /*get rid of the line underneath
+}
+
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+
+.navbar-brand p span {
+	vertical-align: middle;
+}
+
+.navbar{
+	font-family: serif;
+	background-color: #f6b319 !important;
+}*/

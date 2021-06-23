@@ -1,9 +1,196 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Hello!</title>
-</head>
-<body>
-<h1> Hello! </h1>
-</body>
+<html lang = "en">
+	<head>
+		<meta charset="etf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=devicec-width, initial-scale=1">
+		<!--<title>Dave's Bistro</title>-->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<title>Hello, world!</title>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  				<div class="container-fluid">
+				    <a class="navbar-brand" href="#">Navbar</a>
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+				    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+				        <li class="nav-item">
+				          <a class="nav-link active" aria-current="page" href="#">Home</a>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link" href="#">Link</a>
+				        </li>
+				        <li class="nav-item dropdown">
+				          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+				            Dropdown
+				          </a>
+				          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+				            <li><a class="dropdown-item" href="#">Action</a></li>
+				            <li><a class="dropdown-item" href="#">Another action</a></li>
+				            <li><hr class="dropdown-divider"></li>
+				            <li><a class="dropdown-item" href="#">Something else here</a></li>
+				          </ul>
+				        </li>
+				        <li class="nav-item">
+				          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+				        </li>
+				      </ul>
+				      <form class="d-flex">
+				        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+				        <button class="btn btn-outline-success" type="submit">Search</button>
+				      </form>
+				    </div>
+				  </div>
+				</nav>
+		</div>
+		<div class="container-fluid">
+			<div class="header">
+				Header section of website
+			</div>
+			<div class="content">
+				<div class="row">
+					<div class="col-2 sidebar">
+						<li class="list-group-item">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+						<li class="list-group-item list-group-item-dark">Hi</li>
+					</div>
+
+					<div class="col-10 main-content p-4">
+						<h2>Insepctions</h2>
+						<table class="table">
+						  <thead>
+						    <tr>
+						      <th scope="col">#</th>
+						      <th scope="col">First</th>
+						      <th scope="col">Last</th>
+						      <th scope="col">Handle</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <th scope="row">1</th>
+						      <td>Mark</td>
+						      <td>Otto</td>
+						      <td>@mdo</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">2</th>
+						      <td>Jacob</td>
+						      <td>Thornton</td>
+						      <td>@fat</td>
+						    </tr>
+						    <tr>
+						      <th scope="row">3</th>
+						      <td colspan="2">Larry the Bird</td>
+						      <td>@twitter</td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			Footer section of website
+		</div>
+
+
+	<!--<header>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+			s<div class="navbar-brand">
+					<a href="index.html" class="d-none d-md-block d-lg-block d-xl-block">
+						<div id="logo-img" alt="Logo image"></div>
+					</a>
+					<div class="navbar-brand">
+						<a href="index.html"><h1> Dave's Bistro</h1></a>
+						
+						<p>
+							<img src ="chips.jpg" alt="Star" width="100" height="100">
+							<span>Star</span>
+						</p>
+					</div>
+					<!- <a href="menu-categories.html"><img src="chips.jpg" alt="a" width="10" height="10">Menu</a> -->
+					<!-- This is bootstrap to make a collapsable menu button for mobile devices that you click on to see menu options. This is essentially a dropdown for navigating to other sections. 
+					#collapsed-nav is a radnom ID name that will be used to create the rest of the navigation elements later
+					
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+						<span class="sr-only">Toggle Navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span> 
+					</button> 
+				</div>
+
+				<-- THIS WORKS TO MAKE A COLLAPSABLE MENU AND HAVE OPTIONS SHOW UP OTHERWISE !!! 
+				<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  					<a class="navbar-brand" href="#">Navbar</a>
+  					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    					<span class="navbar-toggler-icon"></span>
+  					</button>
+  					<div class="collapse navbar-collapse" id="navbarNav">
+    					<ul class="navbar-nav">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Features</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Pricing</a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link disabled" href="#">Disabled</a>
+				      </li>
+				    </ul>
+				  </div>
+				</nav>
+
+				<-- THIS DOES NOT WORK 
+				<div id="collapsable-nav" class="collapse navbar-collapse">
+					<ul id="nav-list" class="nav navbar-nav navbar-right"> <!- navbar-right class pulls to the right
+						<li>
+							<a href="menu-categories.html">  points to a page within the same directory. glyphicon gives us images to use as icons 
+								<img src="chips.jpg" alt="a" width="10" height="10">Menu</a>
+								<span class="glyphicon glyphicon-cutlery"></span><br class="d-none d-sm-block"> Menu</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="glyphicon glyphicon-info-sign"></span>
+								<br class="d-none d-sm-block"> Awards </a>
+						</li>
+						<li id="phone" class="d-none d-sm-block">
+							<a href="tel:123-456-7890">
+								<span>123-456-7890</span></a><div>* We Deliver </div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>	-->		
+		<script src="js/jquery-3.6.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
 </html>
